@@ -1,67 +1,36 @@
+/**
+ * Created by Mike Weiss on 4/18/2019.
+ *
+ * Controller for the PaymentTable component
+ */
 ({
-	init: function (cmp, event, helper) {
-		cmp.set('v.columns', [
+	// Method for initializing the payment table
+	init: function (component, event, helper) {
+		component.set('v.columns', [
 			{label: 'Id', fieldName: 'Id', type: 'text' , editable: false},
 			{label: 'Project Name', fieldName: 'Project__rName', type: 'text' ,editable: false},
 			{label: 'Payment Amount', fieldName: 'Payment_Amount__c', type: 'currency' ,editable: true},
 			{label: 'Payment Date', fieldName: 'Payment_Date__c', type: 'date',
 				typeAttributes: {day: 'numeric',month: 'numeric',year: 'numeric',},editable: true}
 		]);
-		helper.fetchData(cmp,event, helper);
+		helper.fetchData(component,event, helper);
+		helper.getCurrentContact(component, event);
 	},
-	handleSaveEdition: function (cmp, event, helper) {
-		console.log('%%%%% handleSaveEdition - enter');
-		var draftValues = event.getParam('draftValues');
-		console.log('%%%%% draftValues:');
-		console.log(draftValues);
-
-		var action = cmp.get("c.updatePayments");
-		console.log('%%%%% action: ');
-		console.log(action);
-		action.setParams({"updatePayments": draftValues});
-		action.setCallback(this, function (response) {
-			var state = response.getState();
-			console.log('%%%%% state: ');
-			console.log(state);
-			$A.get('e.force:refreshView').fire();
-
-		});
-		$A.enqueueAction(action);
+	// Method to handle saving payment edits
+	handleSaveEdition: function (component, event, helper) {
+		helper.handleSaveEdition(component, event);
 	},
+	// Method to update the selected payment records
 	storeSelectedRows : function(component, event, helper){
-		console.log('%%%%% store selected rows - enter');
-		var selectedRows = event.getParam("selectedRows");
-		console.log(selectedRows);
-		component.set("v.selectedRows", selectedRows);
+		helper.storeSelectedRows(component, event);
 	},
+	// Method to delete the selected payments
 	deleteTableRows : function(component, event, helper) {
-		console.log('%%%%% deleteTableRows - enter');
-
-		var selectedPayments = component.get("v.selectedRows");
-		console.log('%%%%% selectedPayments: ');
-		console.log(selectedPayments);
-		var IDs = [];
-		for (var i = 0; i < selectedPayments.length; i++){
-			IDs[i] = selectedPayments[i].Id;
-			console.log('%%%%% selected payment');
-			console.log(selectedPayments[i].Id)
-			console.log(selectedPayments[i]);
-		}
-
-		console.log('%%%%% IDs: ');
-		console.log(IDs);
-
-		var action = component.get("c.deletePaymentListById");
-		action.setParams({
-			"deletePaymentIdList": IDs
-		});
-
-		action.setCallback(this, function(response) {
-			var state = response.getState();
-				$A.get('e.force:refreshView').fire();
-
-		});
-		$A.enqueueAction(action);
-		helper.fetchData(cmp,event, helper);
+		helper.deleteTableRows(component, event);
+	},
+	// Method to handle the reloading of data
+	handleReloadEvent : function (component, event, helper) {
+		helper.fetchData(component, event);
+		helper.getCurrentContact(component, event);
 	},
 })

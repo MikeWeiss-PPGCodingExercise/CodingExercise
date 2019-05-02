@@ -33,5 +33,7 @@ private with sharing class PaymentTriggerHandlerTest {
         // Test Delete
         delete testPayment;
 
+        // Test Undelete
+        undelete testPayment;
     }
 }

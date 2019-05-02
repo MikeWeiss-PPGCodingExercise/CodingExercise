@@ -40,6 +40,7 @@ private with sharing class PaymentDashboardControllerTest {
         PaymentDashboardController.updatePayments(testPaymentList);
 
         PaymentDashboardController.getContactList();
+        PaymentDashboardController.getContactById(testContact.Id);
         PaymentDashboardController.getPaymentList();
         PaymentDashboardController.getContactWrapperList();
 
@@ -50,6 +51,10 @@ private with sharing class PaymentDashboardControllerTest {
         List<String> paymentIdList = new List<String>();
         paymentIdList.add(testPaymentList[0].Id);
         PaymentDashboardController.deletePaymentListById(paymentIdList);
+
+        System.assert(PaymentDashboardController.isProjectIdValid(testProject.Id));
+        System.assert(!PaymentDashboardController.isProjectIdValid(testContact.Id));
+        System.assert(!PaymentDashboardController.isProjectIdValid(null));
 
     }
 }

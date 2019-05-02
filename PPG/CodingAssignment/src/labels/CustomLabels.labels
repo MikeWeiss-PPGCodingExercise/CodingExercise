@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CreateNewPayment</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CreateNewPayment</shortDescription>
+        <value>Create New Payment</value>
+    </labels>
+    <labels>
+        <fullName>MostRecentPaymentDate</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>MostRecentPaymentDate</shortDescription>
+        <value>Most Recent Payment Date:</value>
+    </labels>
+    <labels>
+        <fullName>Name</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name:</value>
+    </labels>
+    <labels>
+        <fullName>Payments</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Payments</shortDescription>
+        <value>Payments</value>
+    </labels>
+    <labels>
+        <fullName>TotalPaymentAmount</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TotalPaymentAmount</shortDescription>
+        <value>Total Payment Amount:</value>
+    </labels>
+</CustomLabels>

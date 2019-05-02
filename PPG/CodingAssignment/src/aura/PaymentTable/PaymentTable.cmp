@@ -10,27 +10,45 @@
     <aura:attribute name="draftValues" type="Object" default="[]"/>
     <aura:attribute name="contactId" type="String" default=""/>
     <aura:attribute name="selectedRows" type="List"/>
+    <aura:attribute name="currentContact" type="Contact" default="{'sObjectType':'Contact'}"/>
 
 
     <aura:handler name="init" value="{! this }" action="{! c.init }"/>
+    <aura:handler name="reloadEvent" event="c:ReloadEvent" action="{!c.handleReloadEvent}"/>
 
 
-    <!-- the container element determine the height of the datatable -->
-    <div style="height: 300px">
-        <lightning:datatable aura:id="dtTable"
-                             columns="{! v.columns }"
-                             data="{! v.data }"
-                             keyField="Id"
-                             errors="{! v.errors }"
-                             draftValues="{! v.draftValues }"
-                             onrowselection="{! c.storeSelectedRows}"
-                             onsave="{! c.handleSaveEdition }"
-        />
-        <!--<lightning:input type="text" label="Poster Title" name="posterTitle" value="{!v.newPosterTitle}"/>-->
-        <!--<lightning:input type="number" label="Poster Count" name="posterCount" value="{!v.newPosterCount}"/>-->
-        <!--<lightning:button type="submit" label="Add" name="btnAdd" onclick="{! c.addNewPoster}"/>-->
 
-            <lightning:button type="button" label="Delete" name="btnDelete" onclick="{! c.deleteTableRows}"/>
+    <div class="slds-m-top_small slds-border_top slds-m-bottom_small">
+        <div class="slds-grid slds-wrap custom-container">
+            <div class="slds-text-heading_small slds-size_1-of-5 slds-max-small-size_1-of-1 slds-m-around_small">
+                {!$Label.c.Name}&nbsp;
+                <ui:outputText value="{!v.currentContact.Name}"/>
+            </div>
+            <div class="slds-text-heading_small slds-size_1-of-5 slds-max-small-size_1-of-1 slds-m-around_small">
+                {!$Label.c.TotalPaymentAmount}&nbsp;
+                <ui:outputCurrency value="{!v.currentContact.Total_Payment_Amount__c}"/>
+            </div>
+            <div class="slds-text-heading_small slds-size_1-of-5 slds-max-small-size_1-of-1 slds-m-around_small">
+                {!$Label.c.MostRecentPaymentDate}&nbsp;
+                <ui:outputDate value="{!v.currentContact.Most_Recent_Payment_Date__c}"/>
+            </div>
+        </div>
 
+        <c:CreatePayment contactId="{!v.contactId}" />
+
+        <!-- add height of the datatable to keep the save button from going off the bottom of the page -->
+        <div style="height:300px;" class="slds-m-bottom_large slds-m-top_small">
+            <lightning:datatable aura:id="dtTable"
+                                 columns="{! v.columns }"
+                                 data="{! v.data }"
+                                 keyField="Id"
+                                 errors="{! v.errors }"
+                                 draftValues="{! v.draftValues }"
+                                 onrowselection="{! c.storeSelectedRows}"
+                                 onsave="{! c.handleSaveEdition }"
+            />
+
+            <lightning:button class="slds-m-around_small" type="button" label="Delete" name="btnDelete" onclick="{! c.deleteTableRows}"/>
+        </div>
     </div>
 </aura:component>

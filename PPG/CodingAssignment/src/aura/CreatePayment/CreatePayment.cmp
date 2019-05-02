@@ -1,0 +1,42 @@
+<!--
+ - Created by Mike Weiss on 4/28/2019.
+
+ Component to handle creating payment records for a provided contact
+ -->
+
+<aura:component controller="PaymentDashboardController" implements="flexipage:availableForAllPageTypes,force:appHostable,flexipage:availableForRecordHome,force:hasRecordId,force:hasSObjectName" description="CreatePayment">
+
+    <aura:attribute name="data" type="Object"/>
+    <aura:attribute name="errors" type="Object" default="[]"/>
+    <aura:attribute name="draftValues" type="Object" default="[]"/>
+    <aura:attribute name="contactId" type="String" default=""/>
+    <aura:attribute name="selectedRows" type="List"/>
+    <aura:attribute name="displayRecordForm" type="Boolean" default="true"/>
+
+    <aura:registerEvent name="reloadEvent" type="c:ReloadEvent"/>
+
+    <!-- lightning:recordEditForm is complicated to clear out after a successful, so just toggle the if value to rerender -->
+    <aura:if isTrue="{!v.displayRecordForm}">
+        <div>
+            <lightning:recordEditForm aura:id="newPaymentForm" objectApiName="Payment__c" onsuccess="{!c.handleSuccess}">
+                <lightning:messages />
+                <div class="slds-grid">
+                    <div class="slds-col slds-size_1-of-5 slds-m-around_small">
+                        <lightning:inputField aura:id="newPaymentDate" fieldName="Payment_Date__c"/>
+                    </div>
+                    <div class="slds-col slds-size_1-of-5 slds-m-around_small">
+                        <lightning:inputField aura:id="newPaymentAmount" fieldName="Payment_Amount__c"/>
+                    </div>
+                    <div class="slds-col slds-size_1-of-5 slds-m-around_small">
+                        <lightning:inputField aura:id="newProjectId" fieldName="Project__c"/>
+                    </div>
+                    <div class="slds-col slds-size_1-of-5 slds-m-around_small slds-hidden">
+                        <lightning:inputField fieldName="Contact__c" value="{!v.contactId}"/>
+                    </div>
+                </div>
+                <!--<lightning:button class="slds-m-around_small" type="submit" label="{!$Label.c.CreateNewPayment}" />-->
+                <lightning:button class="slds-m-around_small" onclick="{!c.handleSubmit}" label="{!$Label.c.CreateNewPayment}" />
+            </lightning:recordEditForm>
+        </div>
+    </aura:if>
+</aura:component>

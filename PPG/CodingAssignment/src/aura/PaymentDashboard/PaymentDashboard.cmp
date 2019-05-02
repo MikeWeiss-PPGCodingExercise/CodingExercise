@@ -1,97 +1,23 @@
+<!--
+ - Created by Mike Weiss on 4/28/2019.
+
+ Component to handle creating displaying of payment information for all contacts that have a payment
+ -->
 <aura:component controller="PaymentDashboardController" implements="flexipage:availableForAllPageTypes" access="global">
 
-    <aura:attribute name="displayErrorMessage" type="Boolean" default="false"/>
-    <aura:attribute name="isFormValid" type="Boolean" default="false"/>
-    <aura:attribute name="errorMessage" type="String" default=""/>
-    <aura:attribute name="paymentList" type="Payment__c[]" default=""/>
     <aura:attribute name="contactWrapperList" type="ContactWrapper[]" default=""/>
 
-    <aura:attribute name="newItem" type="Payment__c"
-                    default="{'sobjectType': 'Payment__c', 'Payment_Amount__c': 0.00, 'Payment_Date__c': '', 'Project__c': '', 'Contact__c':''}"
-    />
     <aura:handler name="init" action="{!c.init}" value="{!this}"/>
-
-
-    <!-- New payment form -->
-    <lightning:layout>
-        <lightning:layoutItem padding="around-small" size="6">
-
-            <!-- Create new payment -->
-            <div aria-labelledby="newitemform">
-
-                <!-- Boxed area -->
-                <fieldset class="slds-box slds-theme--default slds-container--small">
-
-                    Create New Payment
-                    <form class="slds-form--stacked">
-                        <lightning:input type="number" aura:id="itemform" label="Payment Amount"
-                                         name="itemPaymentAmount"
-                                         min="0.01"
-                                         formatter="currency"
-                                         step="0.01"
-                                         value="{!v.newItem.Payment_Amount__c}"
-                                         required="true"
-                                         messageWhenRangeUnderflow="Enter an amount that's at least $0.01."/>
-                        <lightning:input aura:id="itemform" label="Payment Date"
-                                         name="itemPaymentDate"
-                                         value="{!v.newItem.Payment_Date__c}"
-                                         min="1"
-                                         type="date"
-                                         required="true"
-                                         messageWhenRangeUnderflow="Enter a date"/>
-                        <lightning:input aura:id="itemform" label="Project"
-                                         name="itemProject"
-                                         value="{!v.newItem.Project__c}"
-                                         type="text"
-                                         required="true"
-                                         messageWhenRangeUnderflow="Enter a Project Id"/>
-                        <lightning:input aura:id="itemform" label="Person"
-                                         name="itemContact"
-                                         value="{!v.newItem.Contact}"
-                                         type="text"
-                                         required="true"
-                                         messageWhenRangeUnderflow="Enter a Contact Id"/>
-                        <lightning:button label="Create Payment"
-                                          class="slds-m-top--medium"
-                                          variant="brand"
-                                          onclick="{!c.clickCreateItem}"/>
-                    </form>
-                    <!-- / Create new Payment form -->
-
-                </fieldset>
-                <!--/ Box area -->
-
-            </div>
-            <!-- / Create new Payment -->
-
-        </lightning:layoutItem>
-    </lightning:layout>
-    <!-- / New payment form -->
 
     <div class="slds-card slds-p-top--medium">
         <header class="slds-card__header">
-            <h3 class="slds-text-heading_medium">Payments</h3>
+            <h3 class="slds-text-heading_medium">{!$Label.c.Payments}</h3>
         </header>
 
         <section class="slds-card__body">
             <div id="list" class="row">
 
                 <aura:iteration items="{!v.contactWrapperList}" var="contactWrapperItem">
-                    <div class="slds-grid slds-wrap custom-container">
-                        <div class="slds-text-heading_small slds-size_1-of-5 slds-max-small-size_1-of-1 slds-m-around_small">
-                            Name:
-                            <ui:outputText value="{!contactWrapperItem.contact.Name}"/>
-                        </div>
-                        <div class="slds-text-heading_small slds-size_1-of-5 slds-max-small-size_1-of-1 slds-m-around_small">
-                            Payment Amount:
-                            <ui:outputCurrency value="{!contactWrapperItem.contact.Total_Payment_Amount__c}"/>
-                        </div>
-                        <div class="slds-text-heading_small slds-size_1-of-5 slds-max-small-size_1-of-1 slds-m-around_small">
-                            Payment Date:
-                            <ui:outputDate value="{!contactWrapperItem.contact.Most_Recent_Payment_Date__c}"/>
-                        </div>
-                    </div>
-
                     <c:PaymentTable contactId="{!contactWrapperItem.contact.Id}"/>
                     <br/>
                 </aura:iteration>

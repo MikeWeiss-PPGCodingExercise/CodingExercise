@@ -11,10 +11,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CodingAssignment$ContactWrapperTest_testContactWrapper.null" NAME="PPGCodingAssignment Coverage Results" MODIFIED="1556748923995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="Apex" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" PROJECT_NAME="CodingAssignment" CONNECTION_NAME="PPGCodingAssignment" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/PaymentDashboard/PaymentDashboard.cmp">
+        <entry file="file://$PROJECT_DIR$/src/aura/PaymentTable/PaymentTable.cmp">
           <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
           <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
           <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
@@ -28,9 +31,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/ContactWrapper.cls">
+        <entry file="file://$PROJECT_DIR$/src/aura/PaymentTable/PaymentTableController.js">
+          <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
+          <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
+          <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
           <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-          <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/PaymentTable/PaymentTableHelper.js">
+          <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
+          <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
+          <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
+          <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -38,6 +51,14 @@
           <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
           <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
           <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
+          <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/CreatePayment/CreatePaymentHelper.js">
+          <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
+          <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
+          <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
           <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
         </entry>
       </file>
@@ -50,48 +71,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/PaymentTable/PaymentTable.cmp">
-          <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
-          <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
-          <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-          <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
-          <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningDesignFileEditorProvider" />
-          <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningStyleFileEditorProvider" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/PaymentTable/PaymentTableController.js">
+        <entry file="file://$PROJECT_DIR$/src/aura/CreatePayment/CreatePaymentController.js">
           <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
           <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
-          <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
           <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
-          <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningDesignFileEditorProvider" />
-          <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningStyleFileEditorProvider" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/PaymentTable/PaymentTableHelper.js">
-          <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
-          <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
           <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-          <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
-          <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningDesignFileEditorProvider" />
-          <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningStyleFileEditorProvider" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/PaymentDashboardController.cls">
           <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
           <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/lightningfiles/Gamify_NewGameCriterionButtonOverride.cmp.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="53" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="53" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -101,62 +91,73 @@
       <list>
         <option value="Apex Class" />
         <option value="Lightning Component" />
+        <option value="Lightning Controller" />
+        <option value="Lightning Helper" />
+        <option value="Lightning Application Event" />
         <option value="Apex Metadata" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>reseterror</find>
-      <find>setinitial</find>
-      <find>setinitialgamerule</find>
-      <find>getgame</find>
-      <find>initial</find>
-      <find>populateIdsFromPaymentList</find>
-      <find>mostrecentpayment</find>
-      <find>getvalues</find>
-      <find>updatevalues</find>
-      <find>newpaymentsbyidma</find>
-      <find>slds-m-around_xx-small</find>
-      <find>horizontal</find>
-      <find>items</find>
-      <find>wrapper</find>
-      <find>deletePaymentIdList</find>
-      <find>getSelectedID</find>
-      <find>handleSaveEdition</find>
-      <find>r</find>
-      <find>handlesave</find>
-      <find>saveedi</find>
-      <find>updatep</find>
-      <find>draft</find>
-      <find>insertpay</find>
-      <find>errors</find>
-      <find>contac</find>
-      <find>.get</find>
       <find>component.get</find>
       <find>newItem</find>
       <find>inser</find>
       <find>insertPayment</find>
+      <find>== null</find>
+      <find>idToContactMap</find>
+      <find>from contact</find>
+      <find>from cont</find>
+      <find>util</find>
+      <find>string</find>
+      <find>cmp</find>
+      <find>test</find>
+      <find>string.</find>
+      <find>fields</find>
+      <find>clickcreate</find>
+      <find>getContactList</find>
+      <find>updatePayments</find>
+      <find>deletePayment</find>
+      <find>handlereload</find>
+      <find>deleteTableRows</find>
+      <find>storeSelectedRows</find>
+      <find>init</find>
+      <find>validateAndSubmit</find>
+      <find>paymentlist</find>
+      <find>helper</find>
+      <find>handle</find>
+      <find>errorMessagePaymentAmount</find>
+      <find>var</find>
+      <find>system.de</find>
+      <find>handleSaveEdition</find>
     </findStrings>
     <replaceStrings>
       <replace>slds-m-horizontal_small</replace>
       <replace>around</replace>
+      <replace>component</replace>
+      <replace>let</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/classes/ContactWrapperTest.cls" />
+        <option value="$PROJECT_DIR$/src/classes/ContactWrapper.cls" />
+        <option value="$PROJECT_DIR$/src/classes/UtilsTest.cls" />
+        <option value="$PROJECT_DIR$/src/aura/ReloadEvent/ReloadEvent.evt" />
+        <option value="$PROJECT_DIR$/src/classes/Utils.cls" />
         <option value="$PROJECT_DIR$/src/classes/PaymentTriggerHandler.cls" />
         <option value="$PROJECT_DIR$/src/triggers/PaymentTrigger.trigger" />
         <option value="$PROJECT_DIR$/src/classes/PaymentTriggerHandlerTest.cls" />
-        <option value="$PROJECT_DIR$/src/classes/ContactWrapperTest.cls" />
-        <option value="$PROJECT_DIR$/src/classes/ContactWrapper.cls" />
         <option value="$PROJECT_DIR$/src/aura/PaymentTable/PaymentTable.cmp" />
-        <option value="$PROJECT_DIR$/src/aura/PaymentTable/PaymentTableController.js" />
-        <option value="$PROJECT_DIR$/src/aura/PaymentTable/PaymentTableHelper.js" />
-        <option value="$PROJECT_DIR$/src/aura/PaymentDashboard/PaymentDashboardHelper.js" />
         <option value="$PROJECT_DIR$/src/aura/PaymentDashboard/PaymentDashboardController.js" />
         <option value="$PROJECT_DIR$/src/aura/PaymentDashboard/PaymentDashboard.cmp" />
+        <option value="$PROJECT_DIR$/src/aura/CreatePayment/CreatePayment.cmp" />
+        <option value="$PROJECT_DIR$/src/aura/CreatePayment/CreatePaymentController.js" />
+        <option value="$PROJECT_DIR$/src/aura/CreatePayment/CreatePaymentHelper.js" />
+        <option value="$PROJECT_DIR$/src/aura/PaymentDashboard/PaymentDashboardHelper.js" />
+        <option value="$PROJECT_DIR$/src/aura/PaymentTable/PaymentTableController.js" />
+        <option value="$PROJECT_DIR$/src/aura/PaymentTable/PaymentTableHelper.js" />
         <option value="$PROJECT_DIR$/src/classes/PaymentDashboardController.cls" />
         <option value="$PROJECT_DIR$/src/classes/PaymentDashboardControllerTest.cls" />
       </list>
@@ -168,7 +169,7 @@
         <entry key="CodingAssignment">
           <value>
             <ModuleWorkspaceSettings>
-              <option name="moduleContentsLastModified" value="1555691669476" />
+              <option name="moduleContentsLastModified" value="1556826102500" />
             </ModuleWorkspaceSettings>
           </value>
         </entry>
@@ -178,8 +179,7 @@
       <ProjectWorkspaceSettings>
         <option name="anonymousApexSettings">
           <AnonymousApexSettings>
-            <option name="apexLogLevel" value="FINEST" />
-            <option name="documentText" value="aggregateResult[] result = [SELECT contact__r.Id, AVG(contact__r.most_recent_payment_date__c) date from payment__c where contact__r.id = '0032E00002QmBlvQAF' group by contact__r.id];&#10;&#10;SELECT Name,&#10;        (SELECT FirstName, LastName FROM Contacts ORDER BY LastName LIMIT 1)&#10;        FROM Account" />
+            <option name="documentText" value="aggregateResult[] result = [SELECT contact__r.Id, AVG(contact__r.most_recent_payment_date__c) date from payment__c where contact__r.id = '0032E00002QmBlvQAF' group by contact__r.id];&#10;&#10;SELECT Name,&#10;        (SELECT FirstName, LastName FROM Contacts ORDER BY LastName LIMIT 1)&#10;        FROM Account&#10;&#10;&#10;System.debug('%%%%% ' + PaymentDashboardController.isProjectIdValid('a002E00000ZLyy3QAD'));" />
           </AnonymousApexSettings>
         </option>
         <option name="connectionWorkspaceSettings">
@@ -189,20 +189,34 @@
                 <ConnectionWorkspaceSettings>
                   <option name="buildSuccessDatesBySourceRootRelativePath">
                     <map>
-                      <entry key="AURA/PAYMENTDASHBOARD" value="1555720372665" />
-                      <entry key="AURA/PAYMENTTABLE" value="1555720175933" />
-                      <entry key="CLASSES/CONTACTWRAPPER.CLS" value="1555691709364" />
-                      <entry key="CLASSES/CONTACTWRAPPERTEST.CLS" value="1555691709364" />
-                      <entry key="CLASSES/PAYMENTDASHBOARDCONTROLLER.CLS" value="1555721021737" />
-                      <entry key="CLASSES/PAYMENTDASHBOARDCONTROLLERTEST.CLS" value="1555721115285" />
-                      <entry key="CLASSES/PAYMENTTRIGGERHANDLER.CLS" value="1555691709364" />
-                      <entry key="CLASSES/PAYMENTTRIGGERHANDLERTEST.CLS" value="1555691709364" />
-                      <entry key="TRIGGERS/PAYMENTTRIGGER.TRIGGER" value="1555691709364" />
+                      <entry key="AURA/CREATEPAYMENT" value="1556824073830" />
+                      <entry key="AURA/PAYMENTDASHBOARD" value="1556826095702" />
+                      <entry key="AURA/PAYMENTTABLE" value="1556826095702" />
+                      <entry key="AURA/RELOADEVENT" value="1556771682690" />
+                      <entry key="CLASSES/CONTACTWRAPPER.CLS" value="1556826095702" />
+                      <entry key="CLASSES/CONTACTWRAPPERTEST.CLS" value="1556826095702" />
+                      <entry key="CLASSES/PAYMENTDASHBOARDCONTROLLER.CLS" value="1556826095702" />
+                      <entry key="CLASSES/PAYMENTDASHBOARDCONTROLLERTEST.CLS" value="1556826095702" />
+                      <entry key="CLASSES/PAYMENTTRIGGERHANDLER.CLS" value="1556826095702" />
+                      <entry key="CLASSES/PAYMENTTRIGGERHANDLERTEST.CLS" value="1556826095702" />
+                      <entry key="CLASSES/UTILS.CLS" value="1556770622256" />
+                      <entry key="CLASSES/UTILSTEST.CLS" value="1556768696000" />
+                      <entry key="TRIGGERS/PAYMENTTRIGGER.TRIGGER" value="1556826095702" />
                     </map>
                   </option>
                   <option name="lastBuildScope" value="CUSTOM" />
                   <option name="lastBuildViewToggles">
                     <map>
+                      <entry key="DEPLOY">
+                        <value>
+                          <BuildViewToggles>
+                            <option name="showLocalAndServer" value="true" />
+                            <option name="showLocalOnly" value="true" />
+                            <option name="showServerOnly" value="false" />
+                            <option name="showSubscribedOnly" value="false" />
+                          </BuildViewToggles>
+                        </value>
+                      </entry>
                       <entry key="RETRIEVE">
                         <value>
                           <BuildViewToggles>
@@ -225,6 +239,7 @@
                       <option value="metadata://ApexClass/PaymentDashboardControllerTest" />
                       <option value="metadata://ApexClass/PaymentTriggerHandler" />
                       <option value="metadata://ApexClass/PaymentTriggerHandlerTest" />
+                      <option value="metadata://CustomLabels/CustomLabels" />
                       <option value="metadata://ApexTrigger/PaymentTrigger" />
                     </set>
                   </option>
@@ -238,59 +253,33 @@
             <entry key="PPGCodingAssignment">
               <value>
                 <MetadataContents>
-                  <option name="lastPopulated" value="1555691669476" />
+                  <option name="lastPopulated" value="1556755815049" />
                   <option name="metadataTypes">
                     <set>
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="Custom%3A Support Profile" />
-                            <option value="Customer Community Plus Login User" />
-                            <option value="High Volume Customer Portal User" />
-                            <option value="Analytics Cloud Integration User" />
-                            <option value="Cross Org Data Proxy User" />
-                            <option value="Force%2Ecom - Free User" />
-                            <option value="PlatformPortal" />
-                            <option value="External Identity User" />
-                            <option value="Force%2Ecom - App Subscription User" />
-                            <option value="Chatter External User" />
-                            <option value="Standard" />
-                            <option value="Identity User" />
-                            <option value="Custom%3A Sales Profile" />
-                            <option value="Partner Community Login User" />
-                            <option value="ContractManager" />
-                            <option value="Customer Community Plus User" />
-                            <option value="Partner Community User" />
-                            <option value="StandardAul" />
-                            <option value="Gold Partner User" />
-                            <option value="Chatter Moderator User" />
-                            <option value="ReadOnly" />
-                            <option value="SolutionManager" />
-                            <option value="Chatter Free User" />
-                            <option value="HighVolumePortal" />
-                            <option value="Customer Portal Manager Standard" />
-                            <option value="Customer Community Login User" />
-                            <option value="MarketingProfile" />
-                            <option value="Analytics Cloud Security User" />
-                            <option value="Admin" />
-                            <option value="Silver Partner User" />
-                            <option value="Partner App Subscription User" />
-                            <option value="Work%2Ecom Only User" />
-                            <option value="Authenticated Website" />
-                            <option value="Customer Community User" />
-                            <option value="Custom%3A Marketing Profile" />
-                            <option value="Customer Portal Manager Custom" />
+                            <option value="DirectorDirectSales" />
+                            <option value="SVPSalesMarketing" />
+                            <option value="COO" />
+                            <option value="MarketingTeam" />
+                            <option value="DirectorChannelSales" />
+                            <option value="InstallationRepairServices" />
+                            <option value="SVPHumanResources" />
+                            <option value="SVPCustomerServiceSupport" />
+                            <option value="VPInternationalSales" />
+                            <option value="EasternSalesTeam" />
+                            <option value="ChannelSalesTeam" />
+                            <option value="CEO" />
+                            <option value="CFO" />
+                            <option value="CustomerSupportInternational" />
+                            <option value="CustomerSupportNorthAmerica" />
+                            <option value="WesternSalesTeam" />
+                            <option value="VPMarketing" />
+                            <option value="VPNorthAmericanSales" />
                           </set>
                         </option>
-                        <option name="name" value="Profile" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="ApexDevNet" />
-                          </set>
-                        </option>
-                        <option name="name" value="RemoteSiteSetting" />
+                        <option name="name" value="Role" />
                       </MetadataType>
                       <MetadataType>
                         <option name="members">
@@ -301,55 +290,6 @@
                           </set>
                         </option>
                         <option name="name" value="DuplicateRule" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="PaymentTrigger" />
-                          </set>
-                        </option>
-                        <option name="name" value="ApexTrigger" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="Account" />
-                            <option value="Company" />
-                            <option value="Address" />
-                            <option value="Macro" />
-                            <option value="Product" />
-                            <option value="Security" />
-                            <option value="Knowledge" />
-                            <option value="Ideas" />
-                            <option value="Name" />
-                            <option value="Case" />
-                            <option value="FieldService" />
-                            <option value="OmniChannel" />
-                            <option value="Search" />
-                            <option value="Opportunity" />
-                            <option value="FileUploadAndDownloadSecurity" />
-                            <option value="Activities" />
-                            <option value="Order" />
-                            <option value="OrgPreference" />
-                            <option value="BusinessHours" />
-                            <option value="Forecasting" />
-                            <option value="Mobile" />
-                            <option value="LiveAgent" />
-                            <option value="Quote" />
-                            <option value="Entitlement" />
-                            <option value="Contract" />
-                            <option value="PathAssistant" />
-                          </set>
-                        </option>
-                        <option name="name" value="Settings" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="DataCloudGeoLocation" />
-                          </set>
-                        </option>
-                        <option name="name" value="CleanDataService" />
                       </MetadataType>
                       <MetadataType>
                         <option name="members">
@@ -370,23 +310,6 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="Payment__c-en_US" />
-                            <option value="Project__c-en_US" />
-                          </set>
-                        </option>
-                        <option name="name" value="CustomObjectTranslation" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="CustomLabels" />
-                          </set>
-                        </option>
-                        <option name="name" value="CustomLabels" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
                             <option value="Account-Account %28Sales%29 Layout" />
                             <option value="Contact-Contact %28Support%29 Layout" />
                             <option value="Product2-Product Layout" />
@@ -396,13 +319,13 @@
                             <option value="Contact-Contact Layout" />
                             <option value="Lead-Lead %28Support%29 Layout" />
                             <option value="DandBCompany-D%26B Company Layout" />
-                            <option value="AssetRelationship-Asset Relationship Layout" />
                             <option value="Case-Case %28Support%29 Layout" />
+                            <option value="AssetRelationship-Asset Relationship Layout" />
                             <option value="Macro-Macro Layout" />
                             <option value="Order-Order Layout" />
-                            <option value="Solution-Solution Layout" />
                             <option value="UserProvisioningRequest-User Provisioning Request Layout" />
                             <option value="ScorecardMetric-Scorecard Metric Layout" />
+                            <option value="Solution-Solution Layout" />
                             <option value="Pricebook2-Price Book Layout" />
                             <option value="Event-Event Layout" />
                             <option value="UserProvisioningLog-User Provisioning Log Layout" />
@@ -410,18 +333,18 @@
                             <option value="Contact-Contact %28Marketing%29 Layout" />
                             <option value="Task-Task Layout" />
                             <option value="ConsumptionSchedule-Consumption Schedule Layout" />
-                            <option value="Opportunity-Opportunity Layout" />
                             <option value="Asset-Asset Layout" />
-                            <option value="OrderItem-Order Product Layout" />
+                            <option value="Opportunity-Opportunity Layout" />
                             <option value="DuplicateRecordSet-Duplicate Record Set Layout" />
+                            <option value="OrderItem-Order Product Layout" />
                             <option value="OpportunityLineItem-Opportunity Product Layout" />
                             <option value="Case-Case Layout" />
                             <option value="Contract-Contract Layout" />
                             <option value="Account-Account Layout" />
                             <option value="Campaign-Campaign Layout" />
                             <option value="Payment__c-Payment Layout" />
-                            <option value="CommunityMemberLayout-Community Member Layout" />
                             <option value="Project__c-Project Layout" />
+                            <option value="CommunityMemberLayout-Community Member Layout" />
                             <option value="ScorecardAssociation-Scorecard Association Layout" />
                             <option value="Opportunity-Opportunity %28Sales%29 Layout" />
                             <option value="SocialPersona-Social Persona Layout" />
@@ -433,13 +356,13 @@
                             <option value="ContentVersion-Content Version Layout" />
                             <option value="Opportunity-Opportunity %28Support%29 Layout" />
                             <option value="Global-Global Layout" />
-                            <option value="Account-Account %28Marketing%29 Layout" />
                             <option value="Lead-Lead %28Sales%29 Layout" />
+                            <option value="Account-Account %28Marketing%29 Layout" />
                             <option value="EmailMessage-Email Message Layout" />
                             <option value="SocialPost-Social Post Layout" />
                             <option value="ProductConsumptionSchedule-Product Consumption Schedule Layout" />
-                            <option value="CampaignMember-Campaign Member Page Layout" />
                             <option value="Account-Account %28Support%29 Layout" />
+                            <option value="CampaignMember-Campaign Member Page Layout" />
                             <option value="QuickText-Quick Text Layout" />
                             <option value="User-User Layout" />
                             <option value="Contact-Contact %28Sales%29 Layout" />
@@ -448,138 +371,6 @@
                           </set>
                         </option>
                         <option name="name" value="Layout" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="Contact.Most_Recent_Payment_Date__c" />
-                            <option value="Opportunity.TrackingNumber__c" />
-                            <option value="Account.Active__c" />
-                            <option value="Case.SLAViolation__c" />
-                            <option value="Lead.Primary__c" />
-                            <option value="Payment__c.Payment_Amount__c" />
-                            <option value="CaseComment.ParentOrigin" />
-                            <option value="Opportunity.DeliveryInstallationStatus__c" />
-                            <option value="Lead.CurrentGenerators__c" />
-                            <option value="Account.NumberofLocations__c" />
-                            <option value="Contact.Level__c" />
-                            <option value="Opportunity.MainCompetitors__c" />
-                            <option value="Account.UpsellOpportunity__c" />
-                            <option value="Goal.OrigGoalId__c" />
-                            <option value="Account.SLASerialNumber__c" />
-                            <option value="Account.CustomerPriority__c" />
-                            <option value="Payment__c.Project__c" />
-                            <option value="Project__c.Total_Payment_Amount__c" />
-                            <option value="Account.SLA__c" />
-                            <option value="Lead.SICCode__c" />
-                            <option value="Contact.Languages__c" />
-                            <option value="Payment__c.Payment_Date__c" />
-                            <option value="Opportunity.OrderNumber__c" />
-                            <option value="Case.EngineeringReqNumber__c" />
-                            <option value="Metric.OrigMetricId__c" />
-                            <option value="CaseComment.CommentBody" />
-                            <option value="Account.SLAExpirationDate__c" />
-                            <option value="Opportunity.CurrentGenerators__c" />
-                            <option value="Payment__c.Contact__c" />
-                            <option value="Contact.Total_Payment_Amount__c" />
-                            <option value="Case.PotentialLiability__c" />
-                            <option value="Lead.ProductInterest__c" />
-                            <option value="Lead.NumberofLocations__c" />
-                            <option value="Case.Product__c" />
-                          </set>
-                        </option>
-                        <option name="name" value="CustomField" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="PaymentTriggerHandler" />
-                            <option value="PaymentDashboardControllerTest" />
-                            <option value="ContactWrapper" />
-                            <option value="PaymentTriggerHandlerTest" />
-                            <option value="ContactWrapperTest" />
-                            <option value="PaymentDashboardController" />
-                          </set>
-                        </option>
-                        <option name="name" value="ApexClass" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="ConsumptionSchedule" />
-                            <option value="Account" />
-                            <option value="CollaborationGroup" />
-                            <option value="Task" />
-                            <option value="OpportunityLineItem" />
-                            <option value="ForecastingCategoryMapping" />
-                            <option value="CaseContactRole" />
-                            <option value="Activity" />
-                            <option value="Project__c" />
-                            <option value="Image" />
-                            <option value="Document" />
-                            <option value="ContactCleanInfo" />
-                            <option value="ScorecardMetric" />
-                            <option value="PushTopic" />
-                            <option value="ContractContactRole" />
-                            <option value="FeedItem" />
-                            <option value="ExchangeUserMapping" />
-                            <option value="SocialPersona" />
-                            <option value="Asset" />
-                            <option value="CampaignMember" />
-                            <option value="Order" />
-                            <option value="CollaborationGroupMember" />
-                            <option value="StreamingChannel" />
-                            <option value="AccountContactRole" />
-                            <option value="EmailMessage" />
-                            <option value="AccountCleanInfo" />
-                            <option value="Pricebook2" />
-                            <option value="UserProvisioningRequest" />
-                            <option value="Payment__c" />
-                            <option value="PricebookEntry" />
-                            <option value="OrgDeleteRequest" />
-                            <option value="Recommendation" />
-                            <option value="Campaign" />
-                            <option value="LeadCleanInfo" />
-                            <option value="Idea" />
-                            <option value="ChatterActivity" />
-                            <option value="ScorecardAssociation" />
-                            <option value="Contract" />
-                            <option value="PartnerRole" />
-                            <option value="OpportunityCompetitor" />
-                            <option value="MacroAction" />
-                            <option value="Site" />
-                            <option value="User" />
-                            <option value="ContactRequest" />
-                            <option value="Product2" />
-                            <option value="ProductConsumptionSchedule" />
-                            <option value="Macro" />
-                            <option value="MacroInstruction" />
-                            <option value="DuplicateRecordItem" />
-                            <option value="CaseComment" />
-                            <option value="Case" />
-                            <option value="ContentVersion" />
-                            <option value="Opportunity" />
-                            <option value="Lead" />
-                            <option value="DuplicateRecordSet" />
-                            <option value="Scorecard" />
-                            <option value="Topic" />
-                            <option value="Solution" />
-                            <option value="AssetRelationship" />
-                            <option value="StreamActivityAccess" />
-                            <option value="QuickText" />
-                            <option value="DandBCompany" />
-                            <option value="OpportunityContactRole" />
-                            <option value="Contact" />
-                            <option value="RequestsForAccessSIQ" />
-                            <option value="OrderItem" />
-                            <option value="AssistantProgress" />
-                            <option value="Event" />
-                            <option value="ConsumptionRate" />
-                            <option value="RecordAction" />
-                            <option value="TopicAssignment" />
-                          </set>
-                        </option>
-                        <option name="name" value="CustomObject" />
                       </MetadataType>
                       <MetadataType>
                         <option name="members">
@@ -593,90 +384,10 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="Campaign.ViewCampaignInfluenceReport" />
-                            <option value="Opportunity.DeliveryStatus" />
-                            <option value="Case.UpsellCrosssellOpportunity" />
-                            <option value="Account.Billing" />
+                            <option value="Internal Zone" />
                           </set>
                         </option>
-                        <option name="name" value="WebLink" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="Order.AllActivatedOrders" />
-                            <option value="Opportunity.NewThisWeek" />
-                            <option value="Case.AllOpenCases" />
-                            <option value="Order.AllDraftOrders" />
-                            <option value="Case.MyCases" />
-                            <option value="User.ActiveUsers" />
-                            <option value="Order.AllOrders" />
-                            <option value="Scorecard.MyScorecards" />
-                            <option value="Opportunity.ClosingNextMonth" />
-                            <option value="Contact.AllContacts" />
-                            <option value="Case.MyOpenCases" />
-                            <option value="Opportunity.Default_Opportunity_Pipeline" />
-                            <option value="Opportunity.Private" />
-                            <option value="Contract.AllContracts" />
-                            <option value="Contract.MyActivatedContracts" />
-                            <option value="Recommendation.All_Recommendations" />
-                            <option value="Contract.AllDraftContracts" />
-                            <option value="WorkFeedbackRequest.AboutTopics" />
-                            <option value="ConsumptionSchedule.My_ConsumptionSchedules" />
-                            <option value="Contact.NewLastWeek" />
-                            <option value="Task.DelegatedTasks" />
-                            <option value="SocialPersona.AllSocialPersonas" />
-                            <option value="User.AllUsers" />
-                            <option value="Task.UnscheduledTasks" />
-                            <option value="Contract.MyDraftContracts" />
-                            <option value="Lead.TodaysLeads" />
-                            <option value="Task.CompletedTasks" />
-                            <option value="Solution.AllUnreviewedSolutions" />
-                            <option value="Account.NewLastWeek" />
-                            <option value="Activity.UpcomingEvents" />
-                            <option value="Account.MyAccounts" />
-                            <option value="Opportunity.AllOpportunities" />
-                            <option value="Task.OpenTasks" />
-                            <option value="Task.OverdueTasks" />
-                            <option value="Contact.BirthdaysThisMonth" />
-                            <option value="Opportunity.ClosingThisMonth" />
-                            <option value="Account.AllAccounts" />
-                            <option value="ContactRequest.My_ContactRequests" />
-                            <option value="CollaborationGroup.All_ChatterGroups" />
-                            <option value="Contact.NewThisWeek" />
-                            <option value="Activity.AllActivities" />
-                            <option value="Opportunity.NewLastWeek" />
-                            <option value="Asset.AllAssets" />
-                            <option value="User.AdminUsers" />
-                            <option value="Scorecard.AllScorecards" />
-                            <option value="Campaign.MyActiveCampaigns" />
-                            <option value="Opportunity.MyOpportunities" />
-                            <option value="Lead.MyUnreadLeads" />
-                            <option value="Campaign.AllActiveCampaigns" />
-                            <option value="Product2.AllProducts" />
-                            <option value="Contact.MyContacts" />
-                            <option value="Activity.TodaysTasks" />
-                            <option value="ConsumptionSchedule.All_ConsumptionSchedules" />
-                            <option value="Task.RecurringTasks" />
-                            <option value="Case.AllClosedCases" />
-                            <option value="Opportunity.Won" />
-                            <option value="Solution.AllReviewedSolutions" />
-                            <option value="Account.PlatinumandGoldSLACustomers" />
-                            <option value="Contract.MyInApprovalContracts" />
-                            <option value="Task.TodaysTasks" />
-                            <option value="Activity.MyActivities" />
-                            <option value="Contract.AllInApprovalContracts" />
-                            <option value="WorkFeedbackTemplate.All" />
-                            <option value="Lead.AllOpenLeads" />
-                            <option value="Account.NewThisWeek" />
-                            <option value="WorkFeedbackRequest.All" />
-                            <option value="Lead.ViewCustom1" />
-                            <option value="Idea.Ideas_Last_7_Days" />
-                            <option value="Contract.AllActivatedContracts" />
-                            <option value="Lead.ViewCustom2" />
-                          </set>
-                        </option>
-                        <option name="name" value="ListView" />
+                        <option name="name" value="Community" />
                       </MetadataType>
                       <MetadataType>
                         <option name="members">
@@ -709,59 +420,6 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="Internal Zone" />
-                          </set>
-                        </option>
-                        <option name="name" value="Community" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="DirectorDirectSales" />
-                            <option value="SVPSalesMarketing" />
-                            <option value="MarketingTeam" />
-                            <option value="COO" />
-                            <option value="DirectorChannelSales" />
-                            <option value="InstallationRepairServices" />
-                            <option value="SVPHumanResources" />
-                            <option value="SVPCustomerServiceSupport" />
-                            <option value="VPInternationalSales" />
-                            <option value="CEO" />
-                            <option value="EasternSalesTeam" />
-                            <option value="ChannelSalesTeam" />
-                            <option value="CustomerSupportInternational" />
-                            <option value="CFO" />
-                            <option value="CustomerSupportNorthAmerica" />
-                            <option value="WesternSalesTeam" />
-                            <option value="VPMarketing" />
-                            <option value="VPNorthAmericanSales" />
-                          </set>
-                        </option>
-                        <option name="name" value="Role" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="Account" />
-                            <option value="Lead" />
-                            <option value="Contact" />
-                          </set>
-                        </option>
-                        <option name="name" value="MatchingRules" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="Contact.Standard_Contact_Match_Rule_v1_1" />
-                            <option value="Lead.Standard_Lead_Match_Rule_v1_0" />
-                            <option value="Account.Standard_Account_Match_Rule_v1_0" />
-                          </set>
-                        </option>
-                        <option name="name" value="MatchingRule" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
                             <option value="Lead" />
                             <option value="Case" />
                           </set>
@@ -771,8 +429,8 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="Lead.Standard" />
                             <option value="Case.Standard" />
+                            <option value="Lead.Standard" />
                           </set>
                         </option>
                         <option name="name" value="AssignmentRule" />
@@ -793,20 +451,204 @@
                             <option value="standard__ServiceConsole" />
                             <option value="standard__Community" />
                             <option value="standard__AppLauncher" />
-                            <option value="standard__Chatter" />
                             <option value="standard__LightningInstrumentation" />
+                            <option value="standard__Chatter" />
                             <option value="standard__Platform" />
                             <option value="standard__Service" />
                             <option value="standard__LightningSales" />
-                            <option value="standard__Sites" />
-                            <option value="standard__Marketing" />
                             <option value="standard__Content" />
-                            <option value="standard__LightningBolt" />
+                            <option value="standard__Marketing" />
+                            <option value="standard__Sites" />
                             <option value="standard__LightningSalesConsole" />
+                            <option value="standard__LightningBolt" />
                             <option value="standard__Insights" />
                           </set>
                         </option>
                         <option name="name" value="CustomApplication" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="LightningSalesConsole_UtilityBar" />
+                            <option value="LightningService_UtilityBar" />
+                            <option value="Payments" />
+                          </set>
+                        </option>
+                        <option name="name" value="FlexiPage" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="NewGroup" />
+                            <option value="Task.EditDescription" />
+                            <option value="FeedItem.NewTaskFromFeedItem" />
+                            <option value="NewNote" />
+                            <option value="Task.EditDescription_0" />
+                            <option value="CollaborationGroup.NewGroupMember" />
+                            <option value="CollaborationGroup.NewGroupRecord" />
+                            <option value="NewLead" />
+                            <option value="SendEmail" />
+                            <option value="Task.UpdateStatus" />
+                            <option value="NewOpportunity" />
+                            <option value="NewTask" />
+                            <option value="Task.Defer_0" />
+                            <option value="Task.UpdateStatus_0" />
+                            <option value="NewAccount" />
+                            <option value="Task.UpdatePriority" />
+                            <option value="Case.NewChildCase" />
+                            <option value="Case.LogACall" />
+                            <option value="Task.UpdatePriority_0" />
+                            <option value="NewContact" />
+                            <option value="Task.Defer" />
+                            <option value="NewCase" />
+                            <option value="NewEvent" />
+                            <option value="LogACall" />
+                          </set>
+                        </option>
+                        <option name="name" value="QuickAction" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Salesforce1" />
+                            <option value="AppSwitcher" />
+                          </set>
+                        </option>
+                        <option name="name" value="AppMenu" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="ConsumptionSchedule" />
+                            <option value="Account" />
+                            <option value="Task" />
+                            <option value="CollaborationGroup" />
+                            <option value="ForecastingCategoryMapping" />
+                            <option value="OpportunityLineItem" />
+                            <option value="CaseContactRole" />
+                            <option value="Activity" />
+                            <option value="Project__c" />
+                            <option value="Image" />
+                            <option value="Document" />
+                            <option value="ContactCleanInfo" />
+                            <option value="ScorecardMetric" />
+                            <option value="PushTopic" />
+                            <option value="ContractContactRole" />
+                            <option value="FeedItem" />
+                            <option value="ExchangeUserMapping" />
+                            <option value="SocialPersona" />
+                            <option value="Asset" />
+                            <option value="CampaignMember" />
+                            <option value="CollaborationGroupMember" />
+                            <option value="Order" />
+                            <option value="AccountContactRole" />
+                            <option value="StreamingChannel" />
+                            <option value="EmailMessage" />
+                            <option value="Pricebook2" />
+                            <option value="AccountCleanInfo" />
+                            <option value="Payment__c" />
+                            <option value="UserProvisioningRequest" />
+                            <option value="Recommendation" />
+                            <option value="PricebookEntry" />
+                            <option value="OrgDeleteRequest" />
+                            <option value="LeadCleanInfo" />
+                            <option value="Campaign" />
+                            <option value="Idea" />
+                            <option value="ChatterActivity" />
+                            <option value="Contract" />
+                            <option value="ScorecardAssociation" />
+                            <option value="OpportunityCompetitor" />
+                            <option value="PartnerRole" />
+                            <option value="Site" />
+                            <option value="MacroAction" />
+                            <option value="User" />
+                            <option value="ContactRequest" />
+                            <option value="Product2" />
+                            <option value="ProductConsumptionSchedule" />
+                            <option value="Macro" />
+                            <option value="MacroInstruction" />
+                            <option value="DuplicateRecordItem" />
+                            <option value="CaseComment" />
+                            <option value="Case" />
+                            <option value="ContentVersion" />
+                            <option value="Opportunity" />
+                            <option value="Lead" />
+                            <option value="DuplicateRecordSet" />
+                            <option value="Scorecard" />
+                            <option value="Topic" />
+                            <option value="Solution" />
+                            <option value="StreamActivityAccess" />
+                            <option value="QuickText" />
+                            <option value="AssetRelationship" />
+                            <option value="DandBCompany" />
+                            <option value="OpportunityContactRole" />
+                            <option value="Contact" />
+                            <option value="RequestsForAccessSIQ" />
+                            <option value="OrderItem" />
+                            <option value="AssistantProgress" />
+                            <option value="Event" />
+                            <option value="ConsumptionRate" />
+                            <option value="RecordAction" />
+                            <option value="TopicAssignment" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomObject" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Contact.Most_Recent_Payment_Date__c" />
+                            <option value="Opportunity.TrackingNumber__c" />
+                            <option value="Account.Active__c" />
+                            <option value="Case.SLAViolation__c" />
+                            <option value="Lead.Primary__c" />
+                            <option value="Payment__c.Payment_Amount__c" />
+                            <option value="CaseComment.ParentOrigin" />
+                            <option value="Opportunity.DeliveryInstallationStatus__c" />
+                            <option value="Lead.CurrentGenerators__c" />
+                            <option value="Account.NumberofLocations__c" />
+                            <option value="Contact.Level__c" />
+                            <option value="Opportunity.MainCompetitors__c" />
+                            <option value="Goal.OrigGoalId__c" />
+                            <option value="Account.SLASerialNumber__c" />
+                            <option value="Account.UpsellOpportunity__c" />
+                            <option value="Account.CustomerPriority__c" />
+                            <option value="Payment__c.Project__c" />
+                            <option value="Project__c.Total_Payment_Amount__c" />
+                            <option value="Account.SLA__c" />
+                            <option value="Lead.SICCode__c" />
+                            <option value="Contact.Languages__c" />
+                            <option value="Payment__c.Payment_Date__c" />
+                            <option value="Opportunity.OrderNumber__c" />
+                            <option value="Case.EngineeringReqNumber__c" />
+                            <option value="Metric.OrigMetricId__c" />
+                            <option value="CaseComment.CommentBody" />
+                            <option value="Account.SLAExpirationDate__c" />
+                            <option value="Opportunity.CurrentGenerators__c" />
+                            <option value="Payment__c.Contact__c" />
+                            <option value="Contact.Total_Payment_Amount__c" />
+                            <option value="Case.PotentialLiability__c" />
+                            <option value="Lead.ProductInterest__c" />
+                            <option value="Lead.NumberofLocations__c" />
+                            <option value="Case.Product__c" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomField" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="PaymentTriggerHandler" />
+                            <option value="PaymentDashboardControllerTest" />
+                            <option value="UtilsTest" />
+                            <option value="Utils" />
+                            <option value="ContactWrapper" />
+                            <option value="PaymentTriggerHandlerTest" />
+                            <option value="ContactWrapperTest" />
+                            <option value="PaymentDashboardController" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexClass" />
                       </MetadataType>
                       <MetadataType>
                         <option name="members">
@@ -816,8 +658,8 @@
                             <option value="Task" />
                             <option value="Payment__c" />
                             <option value="Project__c" />
-                            <option value="Contact" />
                             <option value="Case" />
+                            <option value="Contact" />
                             <option value="ContentDocument" />
                             <option value="Campaign" />
                             <option value="Opportunity" />
@@ -829,6 +671,15 @@
                           </set>
                         </option>
                         <option name="name" value="TopicsForObjects" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead" />
+                            <option value="Case" />
+                          </set>
+                        </option>
+                        <option name="name" value="AutoResponseRules" />
                       </MetadataType>
                       <MetadataType>
                         <option name="members">
@@ -885,66 +736,9 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="Lead" />
-                            <option value="Case" />
-                          </set>
-                        </option>
-                        <option name="name" value="AutoResponseRules" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="LightningSalesConsole_UtilityBar" />
-                            <option value="LightningService_UtilityBar" />
-                            <option value="Payments" />
-                          </set>
-                        </option>
-                        <option name="name" value="FlexiPage" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="Task.EditDescription" />
-                            <option value="NewGroup" />
-                            <option value="FeedItem.NewTaskFromFeedItem" />
-                            <option value="NewNote" />
-                            <option value="Task.EditDescription_0" />
-                            <option value="CollaborationGroup.NewGroupMember" />
-                            <option value="CollaborationGroup.NewGroupRecord" />
-                            <option value="SendEmail" />
-                            <option value="NewLead" />
-                            <option value="Task.UpdateStatus" />
-                            <option value="NewOpportunity" />
-                            <option value="NewTask" />
-                            <option value="Task.Defer_0" />
-                            <option value="NewAccount" />
-                            <option value="Task.UpdateStatus_0" />
-                            <option value="Case.NewChildCase" />
-                            <option value="Case.LogACall" />
-                            <option value="Task.UpdatePriority" />
-                            <option value="Task.UpdatePriority_0" />
-                            <option value="NewContact" />
-                            <option value="Task.Defer" />
-                            <option value="NewCase" />
-                            <option value="LogACall" />
-                            <option value="NewEvent" />
-                          </set>
-                        </option>
-                        <option name="name" value="QuickAction" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="Salesforce1" />
-                            <option value="AppSwitcher" />
-                          </set>
-                        </option>
-                        <option name="name" value="AppMenu" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
                             <option value="PaymentTable" />
+                            <option value="ReloadEvent" />
+                            <option value="CreatePayment" />
                             <option value="PaymentDashboard" />
                           </set>
                         </option>
@@ -957,6 +751,243 @@
                           </set>
                         </option>
                         <option name="name" value="Certificate" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Custom%3A Support Profile" />
+                            <option value="Customer Community Plus Login User" />
+                            <option value="Analytics Cloud Integration User" />
+                            <option value="High Volume Customer Portal User" />
+                            <option value="Cross Org Data Proxy User" />
+                            <option value="Force%2Ecom - Free User" />
+                            <option value="PlatformPortal" />
+                            <option value="External Identity User" />
+                            <option value="Force%2Ecom - App Subscription User" />
+                            <option value="Chatter External User" />
+                            <option value="Standard" />
+                            <option value="Identity User" />
+                            <option value="Custom%3A Sales Profile" />
+                            <option value="Partner Community Login User" />
+                            <option value="ContractManager" />
+                            <option value="Customer Community Plus User" />
+                            <option value="Partner Community User" />
+                            <option value="StandardAul" />
+                            <option value="Chatter Moderator User" />
+                            <option value="Gold Partner User" />
+                            <option value="SolutionManager" />
+                            <option value="ReadOnly" />
+                            <option value="Chatter Free User" />
+                            <option value="HighVolumePortal" />
+                            <option value="Customer Community Login User" />
+                            <option value="Customer Portal Manager Standard" />
+                            <option value="MarketingProfile" />
+                            <option value="Analytics Cloud Security User" />
+                            <option value="Admin" />
+                            <option value="Work%2Ecom Only User" />
+                            <option value="Silver Partner User" />
+                            <option value="Partner App Subscription User" />
+                            <option value="Authenticated Website" />
+                            <option value="Customer Community User" />
+                            <option value="Custom%3A Marketing Profile" />
+                            <option value="Customer Portal Manager Custom" />
+                          </set>
+                        </option>
+                        <option name="name" value="Profile" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="ApexDevNet" />
+                          </set>
+                        </option>
+                        <option name="name" value="RemoteSiteSetting" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Opportunity.DeliveryStatus" />
+                            <option value="Campaign.ViewCampaignInfluenceReport" />
+                            <option value="Case.UpsellCrosssellOpportunity" />
+                            <option value="Account.Billing" />
+                          </set>
+                        </option>
+                        <option name="name" value="WebLink" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account" />
+                            <option value="Lead" />
+                            <option value="Contact" />
+                          </set>
+                        </option>
+                        <option name="name" value="MatchingRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Contact.Standard_Contact_Match_Rule_v1_1" />
+                            <option value="Account.Standard_Account_Match_Rule_v1_0" />
+                            <option value="Lead.Standard_Lead_Match_Rule_v1_0" />
+                          </set>
+                        </option>
+                        <option name="name" value="MatchingRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Order.AllActivatedOrders" />
+                            <option value="Opportunity.NewThisWeek" />
+                            <option value="Case.AllOpenCases" />
+                            <option value="Order.AllDraftOrders" />
+                            <option value="Case.MyCases" />
+                            <option value="User.ActiveUsers" />
+                            <option value="Order.AllOrders" />
+                            <option value="Scorecard.MyScorecards" />
+                            <option value="Opportunity.ClosingNextMonth" />
+                            <option value="Contact.AllContacts" />
+                            <option value="Case.MyOpenCases" />
+                            <option value="Opportunity.Default_Opportunity_Pipeline" />
+                            <option value="Opportunity.Private" />
+                            <option value="Contract.AllContracts" />
+                            <option value="Contract.MyActivatedContracts" />
+                            <option value="Recommendation.All_Recommendations" />
+                            <option value="Contract.AllDraftContracts" />
+                            <option value="WorkFeedbackRequest.AboutTopics" />
+                            <option value="ConsumptionSchedule.My_ConsumptionSchedules" />
+                            <option value="Contact.NewLastWeek" />
+                            <option value="Task.DelegatedTasks" />
+                            <option value="SocialPersona.AllSocialPersonas" />
+                            <option value="User.AllUsers" />
+                            <option value="Contract.MyDraftContracts" />
+                            <option value="Task.UnscheduledTasks" />
+                            <option value="Lead.TodaysLeads" />
+                            <option value="Task.CompletedTasks" />
+                            <option value="Solution.AllUnreviewedSolutions" />
+                            <option value="Account.NewLastWeek" />
+                            <option value="Activity.UpcomingEvents" />
+                            <option value="Account.MyAccounts" />
+                            <option value="Opportunity.AllOpportunities" />
+                            <option value="Task.OpenTasks" />
+                            <option value="Task.OverdueTasks" />
+                            <option value="Contact.BirthdaysThisMonth" />
+                            <option value="Account.AllAccounts" />
+                            <option value="Opportunity.ClosingThisMonth" />
+                            <option value="ContactRequest.My_ContactRequests" />
+                            <option value="CollaborationGroup.All_ChatterGroups" />
+                            <option value="Contact.NewThisWeek" />
+                            <option value="Activity.AllActivities" />
+                            <option value="Opportunity.NewLastWeek" />
+                            <option value="Asset.AllAssets" />
+                            <option value="User.AdminUsers" />
+                            <option value="Scorecard.AllScorecards" />
+                            <option value="Opportunity.MyOpportunities" />
+                            <option value="Campaign.MyActiveCampaigns" />
+                            <option value="Lead.MyUnreadLeads" />
+                            <option value="Campaign.AllActiveCampaigns" />
+                            <option value="Product2.AllProducts" />
+                            <option value="Contact.MyContacts" />
+                            <option value="Activity.TodaysTasks" />
+                            <option value="ConsumptionSchedule.All_ConsumptionSchedules" />
+                            <option value="Task.RecurringTasks" />
+                            <option value="Case.AllClosedCases" />
+                            <option value="Opportunity.Won" />
+                            <option value="Solution.AllReviewedSolutions" />
+                            <option value="Account.PlatinumandGoldSLACustomers" />
+                            <option value="Activity.MyActivities" />
+                            <option value="Task.TodaysTasks" />
+                            <option value="Contract.MyInApprovalContracts" />
+                            <option value="Contract.AllInApprovalContracts" />
+                            <option value="WorkFeedbackTemplate.All" />
+                            <option value="Lead.AllOpenLeads" />
+                            <option value="Account.NewThisWeek" />
+                            <option value="WorkFeedbackRequest.All" />
+                            <option value="Lead.ViewCustom1" />
+                            <option value="Idea.Ideas_Last_7_Days" />
+                            <option value="Lead.ViewCustom2" />
+                            <option value="Contract.AllActivatedContracts" />
+                          </set>
+                        </option>
+                        <option name="name" value="ListView" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="PaymentTrigger" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexTrigger" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Payment__c-en_US" />
+                            <option value="Project__c-en_US" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomObjectTranslation" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="CreateNewPayment" />
+                            <option value="MostRecentPaymentDate" />
+                            <option value="Payments" />
+                            <option value="TotalPaymentAmount" />
+                            <option value="Name" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomLabel" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="CustomLabels" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomLabels" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account" />
+                            <option value="Company" />
+                            <option value="Address" />
+                            <option value="Macro" />
+                            <option value="Product" />
+                            <option value="Security" />
+                            <option value="Knowledge" />
+                            <option value="Name" />
+                            <option value="Case" />
+                            <option value="Ideas" />
+                            <option value="FieldService" />
+                            <option value="OmniChannel" />
+                            <option value="Opportunity" />
+                            <option value="Search" />
+                            <option value="FileUploadAndDownloadSecurity" />
+                            <option value="Activities" />
+                            <option value="Order" />
+                            <option value="OrgPreference" />
+                            <option value="BusinessHours" />
+                            <option value="Mobile" />
+                            <option value="Forecasting" />
+                            <option value="Quote" />
+                            <option value="LiveAgent" />
+                            <option value="Entitlement" />
+                            <option value="PathAssistant" />
+                            <option value="Contract" />
+                          </set>
+                        </option>
+                        <option name="name" value="Settings" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="DataCloudGeoLocation" />
+                          </set>
+                        </option>
+                        <option name="name" value="CleanDataService" />
                       </MetadataType>
                       <MetadataType>
                         <option name="members">
@@ -1041,15 +1072,15 @@
                           <set>
                             <option value="unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE" />
                             <option value="unfiled$public/SupportSelfServiceResetPassword" />
-                            <option value="unfiled$public/SupportSelfServiceNewLoginandPassword" />
                             <option value="unfiled$public/SupportCaseCreatedPhoneInquiries" />
+                            <option value="unfiled$public/SupportSelfServiceNewLoginandPassword" />
                             <option value="unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE" />
                             <option value="unfiled$public/SupportCaseAssignmentNotification" />
                             <option value="unfiled$public/SupportCaseResponse" />
                             <option value="unfiled$public/SalesNewCustomerEmail" />
                             <option value="unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE" />
-                            <option value="unfiled$public/SupportEscalatedCaseNotification" />
                             <option value="unfiled$public/SupportCaseCreatedWebInquiries" />
+                            <option value="unfiled$public/SupportEscalatedCaseNotification" />
                             <option value="unfiled$public/MarketingProductInquiryResponse" />
                             <option value="unfiled$public/SupportEscalatedCaseReassignment" />
                           </set>
@@ -1066,7 +1097,7 @@
         <option name="retrieveAndMergeDefault" value="false" />
         <option name="soqlQuerySettings">
           <SoqlQuerySettings>
-            <option name="documentText" value="SELECT contact__r.Id, min(id) paymentId, sum(payment_amount__c) paymentAmount, max(payment_date__c) paymentDate from payment__c  group by contact__r.id" />
+            <option name="documentText" value="SELECT contact__r.Id, min(id) paymentId, sum(payment_amount__c) paymentAmount, max(payment_date__c) paymentDate from payment__c  group by contact__r.id&#10;&#10;&#10;Select id from Project__c&#10;&#10;select id, name from contact&#10;&#10;&#10;select id, contact__c, project__c, payment_date__c, payment_amount__c from payment__c order by createddate desc&#10;&#10;select id, name, namespaceprefix from apexclass" />
             <option name="resultsSplitterProportion" value="0.6491935" />
           </SoqlQuerySettings>
         </option>
@@ -1110,6 +1141,13 @@
               <item name="CodingAssignment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="aura" type="462c0819:PsiDirectoryNode" />
+              <item name="CreatePayment" type="edc2aaaf:IlluminatedCloudProjectTreeStructureProvider$BundleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodingAssignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingAssignment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aura" type="462c0819:PsiDirectoryNode" />
               <item name="PaymentDashboard" type="edc2aaaf:IlluminatedCloudProjectTreeStructureProvider$BundleDirectoryNode" />
             </path>
             <path>
@@ -1118,6 +1156,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="aura" type="462c0819:PsiDirectoryNode" />
               <item name="PaymentTable" type="edc2aaaf:IlluminatedCloudProjectTreeStructureProvider$BundleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodingAssignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingAssignment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aura" type="462c0819:PsiDirectoryNode" />
+              <item name="ReloadEvent" type="edc2aaaf:IlluminatedCloudProjectTreeStructureProvider$BundleDirectoryNode" />
             </path>
             <path>
               <item name="CodingAssignment" type="b2602c69:ProjectViewProjectNode" />
@@ -1155,6 +1200,172 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Apex Unit Tests.ContactWrapperTest.testContactWrapper">
+    <configuration name="ContactWrapperTest.testContactWrapper" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="PPGCodingAssignment" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="CodingAssignment">
+            <value>
+              <set>
+                <option value="ContactWrapperTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="ContactWrapperTest">
+            <value>
+              <set>
+                <option value="testContactWrapper" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PaymentDashboardControllerTest.testPaymentDashboardController" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="PPGCodingAssignment" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="CodingAssignment">
+            <value>
+              <set>
+                <option value="PaymentDashboardControllerTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="PaymentDashboardControllerTest">
+            <value>
+              <set>
+                <option value="testPaymentDashboardController" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PaymentTriggerHandlerTest.testPaymentTriggers" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="PPGCodingAssignment" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="CodingAssignment">
+            <value>
+              <set>
+                <option value="PaymentTriggerHandlerTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="PaymentTriggerHandlerTest">
+            <value>
+              <set>
+                <option value="testPaymentTriggers" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UtilsTest.testUtils" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="PPGCodingAssignment" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="CodingAssignment">
+            <value>
+              <set>
+                <option value="UtilsTest" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="UtilsTest">
+            <value>
+              <set>
+                <option value="testUtils" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Apex Unit Tests.ContactWrapperTest.testContactWrapper" />
+        <item itemvalue="Apex Unit Tests.PaymentDashboardControllerTest.testPaymentDashboardController" />
+        <item itemvalue="Apex Unit Tests.PaymentTriggerHandlerTest.testPaymentTriggers" />
+        <item itemvalue="Apex Unit Tests.UtilsTest.testUtils" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1173,12 +1384,37 @@
       <workItem from="1555614380831" duration="608000" />
       <workItem from="1555615137187" duration="6571000" />
       <workItem from="1555655448289" duration="23054000" />
-      <workItem from="1555690644487" duration="22734000" />
+      <workItem from="1555690644487" duration="23334000" />
+      <workItem from="1556414082120" duration="16461000" />
+      <workItem from="1556748159013" duration="43410000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="UtilsTest_testUtils - 2019.04.28 at 05h 29m 38s.xml">
+      <configuration name="UtilsTest.testUtils" configurationId="com.illuminatedcloud.intellij" />
+    </history-entry>
+    <history-entry file="UtilsTest_testUtils - 2019.04.28 at 05h 30m 31s.xml">
+      <configuration name="UtilsTest.testUtils" configurationId="com.illuminatedcloud.intellij" />
+    </history-entry>
+    <history-entry file="UtilsTest_testUtils - 2019.04.28 at 05h 30m 43s.xml">
+      <configuration name="UtilsTest.testUtils" configurationId="com.illuminatedcloud.intellij" />
+    </history-entry>
+    <history-entry file="PaymentTriggerHandlerTest_testPaymentTriggers - 2019.04.28 at 05h 30m 58s.xml">
+      <configuration name="PaymentTriggerHandlerTest.testPaymentTriggers" configurationId="com.illuminatedcloud.intellij" />
+    </history-entry>
+    <history-entry file="PaymentDashboardControllerTest_testPaymentDashboardController - 2019.04.28 at 05h 31m 14s.xml">
+      <configuration name="PaymentDashboardControllerTest.testPaymentDashboardController" configurationId="com.illuminatedcloud.intellij" />
+    </history-entry>
+    <history-entry file="ContactWrapperTest_testContactWrapper - 2019.04.28 at 05h 31m 26s.xml">
+      <configuration name="ContactWrapperTest.testContactWrapper" configurationId="com.illuminatedcloud.intellij" />
+    </history-entry>
+    <history-entry file="ContactWrapperTest_testContactWrapper - 2019.05.01 at 17h 15m 37s.xml">
+      <configuration name="ContactWrapperTest.testContactWrapper" configurationId="com.illuminatedcloud.intellij" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98062000" />
+    <option name="totallyTimeSpent" value="158533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1189,12 +1425,12 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Log Viewer" order="7" />
+      <window_info anchor="bottom" id="Log Viewer" order="7" weight="0.687974" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="SOQL Query" order="9" weight="0.41170096" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
@@ -1233,9 +1469,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/triggers/PaymentTrigger.trigger">
+    <entry file="file://$USER_HOME$/Downloads/lightningfiles/GameRuleCriterionController.cls.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="135" column="5" selection-start-line="126" selection-start-column="4" selection-end-line="135" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/lightningfiles/Gamify_NewGameCriterionButtonOverride.cmp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="55" column="53" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/ReloadEvent/ReloadEvent.evt">
+      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
       <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/ContactWrapperTest.cls">
       <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
@@ -1249,9 +1499,28 @@
       </provider>
       <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/PaymentTriggerHandlerTest.cls">
+    <entry file="file://$PROJECT_DIR$/src/classes/ContactWrapper.cls">
       <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/PaymentTable/PaymentTable.design">
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
+      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningDesignFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningStyleFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/PaymentTable/PaymentTable.css">
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningDesignFileEditorProvider" />
+      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningStyleFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/triggers/PaymentTrigger.trigger">
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
       <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/PaymentTriggerHandler.cls">
@@ -1259,19 +1528,46 @@
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/lightningfiles/GameRuleCriterionController.cls.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="135" column="5" selection-start-line="126" selection-start-column="4" selection-end-line="135" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/classes/PaymentTriggerHandlerTest.cls">
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/lightningfiles/Gamify_NewGameCriterionButtonOverride.cmp.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="53" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="53" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/aura/PaymentDashboard/PaymentDashboard.cmp">
+      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/CreatePayment/CreatePayment.cmp">
+      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/CreatePayment/CreatePaymentController.js">
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
+      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/CreatePayment/CreatePaymentHelper.js">
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
+      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/PaymentDashboard/PaymentDashboardController.js">
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
+      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/PaymentDashboard/PaymentDashboardHelper.js">
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
+      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/PaymentTable/PaymentTable.cmp">
       <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
@@ -1297,33 +1593,32 @@
       <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningDesignFileEditorProvider" />
       <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningStyleFileEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/PaymentDashboard/PaymentDashboardHelper.js">
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
+    <entry file="file://$PROJECT_DIR$/src/classes/Utils.cls">
       <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/ContactWrapper.cls">
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/PaymentDashboard/PaymentDashboardController.js">
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/PaymentDashboard/PaymentDashboard.cmp">
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/PaymentDashboardController.cls">
       <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/UtilsTest.cls">
+      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />

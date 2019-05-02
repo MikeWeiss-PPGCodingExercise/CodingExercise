@@ -1,0 +1,9 @@
+<!--
+ - Created by Mike Weiss on 5/1/2019.
+
+ Event to handle the initiation of reloading data after an insert, edit, or delete action happens.
+ -->
+
+<aura:event type="COMPONENT" description="ReloadEvent">
+    <aura:attribute name="message" type="String"/>
+</aura:event>

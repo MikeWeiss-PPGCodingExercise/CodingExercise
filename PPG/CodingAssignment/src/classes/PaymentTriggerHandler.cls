@@ -11,54 +11,58 @@ public with sharing class PaymentTriggerHandler {
     private static List<Payment__c> fullPaymentList;
     private static List<AggregateResult> contactAggregatedPaymentList;
     private static List<AggregateResult> projectAggregatedPaymentList;
-    private static Map<String, Contact> idToContactMap = new Map<String, Contact>();
-    private static Map<String, Project__c> idToProjectMap = new Map<String, Project__c>();
+    private static Map<Id, Contact> idToContactMap = new Map<Id, Contact>();
+    private static Map<Id, Project__c> idToProjectMap = new Map<Id, Project__c>();
 
     // Method to handle the insert payment logic.
     public static void handleInsert(Map<Id, Payment__c> newPaymentsByIdMap) {
 
-        System.debug('%%%%% newPaymentsByIdMap: ' + newPaymentsByIdMap);
+        if (!Utils.isMapNullOrEmpty(newPaymentsByIdMap)) {
+            paymentIdSet = newPaymentsByIdMap.keySet();
 
-        paymentIdSet = newPaymentsByIdMap.keySet();
-
-        getValuesToUpdate();
-        updateValues();
+            getValuesToUpdate();
+            updateValues();
+        }
     }
 
     // Method to handle the update payment logic.
     public static void handleUpdate(Map<Id, Payment__c> newPaymentsByIdMap, Map<Id, Payment__c> oldPaymentsByIdMap) {
 
-        System.debug('%%%%% newPaymentsByIdMap: ' + newPaymentsByIdMap);
-        System.debug('%%%%% oldPaymentsByIdMap: ' + oldPaymentsByIdMap);
-
         // Put the values into a list first, since the set can't be updated once created.
-        List<Id> oldNewIdList = new List<Id>(newPaymentsByIdMap.keySet());
-        oldNewIdList.addAll(oldPaymentsByIdMap.keySet());
+        List<Id> oldNewIdList = new List<Id>();
+        if (!Utils.isMapNullOrEmpty(newPaymentsByIdMap)) {
+            oldNewIdList.addAll(newPaymentsByIdMap.keySet());
+        }
+        if (!Utils.isMapNullOrEmpty(oldPaymentsByIdMap)) {
+            oldNewIdList.addAll(oldPaymentsByIdMap.keySet());
+        }
 
-        paymentIdSet = new Set<Id>(oldNewIdList);
+        if (!Utils.isListNullOrEmpty(oldNewIdList)) {
+            paymentIdSet = new Set<Id>(oldNewIdList);
 
-        getValuesToUpdate();
-        updateValues();
+            getValuesToUpdate();
+            updateValues();
+        }
     }
 
     // Method to handle the before delete logic of getting the values to update.
     public static void handleBeforeDelete(Map<Id, Payment__c> oldPaymentsByIdMap) {
 
-        System.debug('%%%%% oldPaymentsByIdMap: ' + oldPaymentsByIdMap);
+        if (!Utils.isMapNullOrEmpty(oldPaymentsByIdMap)) {
+            paymentIdSet = oldPaymentsByIdMap.keySet();
 
-        paymentIdSet = oldPaymentsByIdMap.keySet();
-
-        getValuesToUpdate();
+            getValuesToUpdate();
+        }
     }
 
     // Method to handle the after delete logic of updating the values found during before delete.
     public static void handleAfterDelete(Map<Id, Payment__c> oldPaymentsByIdMap) {
 
-        System.debug('%%%%% oldPaymentsByIdMap: ' + oldPaymentsByIdMap);
-        System.debug('%%%%% paymentIdSet: ' + paymentIdSet);
-        paymentIdSet = oldPaymentsByIdMap.keySet();
+        if (!Utils.isMapNullOrEmpty(oldPaymentsByIdMap)) {
+            paymentIdSet = oldPaymentsByIdMap.keySet();
 
-        updateValues();
+            updateValues();
+        }
     }
 
     // Method to handle getting the Contact and Project__c values to update.
@@ -78,7 +82,6 @@ public with sharing class PaymentTriggerHandler {
 
     // Method to perform the update for the Contact and Project__c values.
     private static void updateValues() {
-        System.debug('%%%%% Entering updateValues');
         contactAggregatedPaymentList = [SELECT Contact__r.Id,
                 SUM(Payment_Amount__c) paymentAmount,
                 MAX(Payment_Date__c) paymentDate
@@ -92,16 +95,12 @@ public with sharing class PaymentTriggerHandler {
 
         // Go through all of the payments to get the IDs of the Contact and Project__c records effected.
         for (Payment__c currentPayment : fullPaymentList) {
-            System.debug('%%%%% currentPayment: ' + currentPayment);
             idToContactMap.put(currentPayment.Contact__c, currentPayment.Contact__r);
             idToProjectMap.put(currentPayment.Project__c, currentPayment.Project__r);
         }
 
         // Using Aggregate Results to limit queries, simplify logic, and ensure updates are accurate.
         for (aggregateResult currentContactAggregateResult : contactAggregatedPaymentList) {
-            System.debug('%%%%% currentContactAggregateResult: ' + currentContactAggregateResult);
-            System.debug('%%%%% idToContactMap.get(currentContactAggregateResult.Id): '
-                    + idToContactMap.get(currentContactAggregateResult.Id));
             if (idToContactMap.get(currentContactAggregateResult.Id) != null) {
                 idToContactMap.get(currentContactAggregateResult.Id).Most_Recent_Payment_Date__c
                         = (Date) currentContactAggregateResult.get('paymentDate');
@@ -111,16 +110,17 @@ public with sharing class PaymentTriggerHandler {
         }
 
         for (aggregateResult currentPaymentAggregateResult : projectAggregatedPaymentList) {
-            System.debug('%%%%% currentPaymentAggregateResult: ' + currentPaymentAggregateResult);
-            System.debug('%%%%% idToProjectMap.get(currentPaymentAggregateResult.Id): '
-                    + idToProjectMap.get(currentPaymentAggregateResult.Id));
             if (idToProjectMap.get(currentPaymentAggregateResult.Id) != null) {
                 idToProjectMap.get(currentPaymentAggregateResult.Id).Total_Payment_Amount__c
                         = (Decimal) currentPaymentAggregateResult.get('paymentAmount'); 
             }
         }
 
-        update idToContactMap.values();
-        update idToProjectMap.values();
+        if(!Utils.isMapNullOrEmpty(idToContactMap)) {
+            update idToContactMap.values();
+        }
+        if (!Utils.isMapNullOrEmpty(idToProjectMap)) {
+            update idToProjectMap.values();
+        }
     }
 }
